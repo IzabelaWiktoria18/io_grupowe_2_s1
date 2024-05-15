@@ -1,9 +1,7 @@
 import csv
 import datetime
-
-    # Przykładowa implementacja dla celów testowych
-    import random
-    return random.choice([True, False])
+import random
+return random.choice([True, False])
 
 def poczta_wyslij_sowy(sciezka_do_pliku):
     # Odczytaj dane z pliku csv
