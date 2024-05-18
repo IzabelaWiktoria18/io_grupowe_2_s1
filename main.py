@@ -2,7 +2,6 @@ import csv
 import datetime
 import time
 import random
-return random.choice([True, False])
 
 def poczta_wyslij_sowy(sciezka_do_pliku):
     # Odczytaj dane z pliku csv
