@@ -3,6 +3,9 @@ import datetime
 import time
 import random
 
+def wyslij_sowe(adresat, tresc):
+    return random.choice([True, False])
+
 def poczta_wyslij_sowy(sciezka_do_pliku):
     # Odczytaj dane z pliku csv
     with open(sciezka_do_pliku, mode='r', newline='', encoding='utf-8') as file:
