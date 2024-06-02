@@ -15,7 +15,7 @@
 
 ## Style nazewnictwa gałęzi
 Nasza konwencja nazewnictwa dla gałęzi to: 
-zadanie_(numer zadania)_(inicjały autora)
+`zadanie_(numer zadania)(inicjały autora)`
 
 ## Zakazane praktyki
 ~~Pushowanie bezpośrednio do gałęzi `main`~~
