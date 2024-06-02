@@ -1,0 +1,20 @@
+name: Test zadania 3
+
+on:
+  push:
+    branches: [ "Zadanie_3PK" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Test3
+      run: python pytests.py
