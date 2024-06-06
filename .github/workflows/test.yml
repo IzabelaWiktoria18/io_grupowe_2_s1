@@ -24,4 +24,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Run tests
       run: |
-        python test_8JG.py
+        python tests_8JG.py
