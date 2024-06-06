@@ -24,4 +24,4 @@ jobs:
         python -m pip install --upgrade pip
     - name: Run tests
       run: |
-        python test_wyslij_sowe_assert.py
+        python test_8JG.py
